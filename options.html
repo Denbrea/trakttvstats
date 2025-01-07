@@ -6,6 +6,16 @@
     <script src="lib/jquery-3.2.1.min.js"></script>
     <script src="lib/jquery-ui.min.js"></script>
     <link rel="stylesheet" href="css/options.css">
+    <link rel="stylesheet" href="css/dark-theme.css" id="dark-theme">
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            var prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+            var darkThemeLink = document.getElementById('dark-theme');
+            if (!prefersDark) {
+                darkThemeLink.parentNode.removeChild(darkThemeLink);
+            }
+        });
+    </script>
 </head>
 <body>
 
