@@ -13,6 +13,7 @@ if ( !options ) {
         i18nSynopsis: 'Both',
         layoutExternalLinks: '',
         layoutSpecifyYearInExternalLinks: true,
+        layoutUseInurlInExternalLinks: true,
         layoutMultilineTitles: false,
         layoutSynopsisMaxLines: 5,
         i18nTitlesLines: [
