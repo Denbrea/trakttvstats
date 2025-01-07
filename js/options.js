@@ -46,7 +46,7 @@ $( () => {
             i18nPosters: 'Disable',
             i18nSynopsis: 'Both',
             layoutExternalLinks: '',
-            layoutSpecifyYearInExternalLinks:false,
+            layoutSpecifyYearInExternalLinks: true,
             layoutSynopsisMaxLines: 5,
             layoutMultilineTitles: false,
             i18nTitlesLines: [
